@@ -1,0 +1,19 @@
+{
+  "name": "Baud from Measurement",
+  "apiVersion": "1.0.0",
+  "author": "Neals",
+  "version": "0.0.1",
+  "description": "Calculates Baud of serial given measurement of the smallest peak in the stream",
+  "extensions": {
+    "Baud from Measurement": {
+      "type": "DigitalMeasurement",
+      "entryPoint": "DigitalMeasurement.MyDigitalMeasurer",
+      "metrics": {
+        "metricKey": {
+          "name": "<metric_name>",
+          "notation": "<short_notation>"
+        }
+      }
+    }
+  }
+}
